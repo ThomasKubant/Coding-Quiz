@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --background-color: #f0f0f0;
+    --primary-color: #786eff;
+    --secondary-color: #35c6ff;
+    --large-font: 4rem;
+    --medium-font: 1.5rem;
+    --small-font: 0.5rem;
+}
+body {
+    background-color: var(--background-color);
+}
+.splash {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.splash h1 {
+    color: var(--primary-color);
+    font-size: 4rem;
+    padding-top: 250px;
+}
+.splash p {
+    color: var(--secondary-color);
+    font-size: 1.5rem;
+    padding-top: 50px;
+}
+.splash button {
+    margin-top: 35px;
+    background-color: var(--primary-color);
+    color: var(--background-color);
+    border-color: var(--secondary-color);
+    border-radius: 8px;
+    font-size: var(--medium-font);
+    padding: 12px 24px;
+}
