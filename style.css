@@ -39,3 +39,24 @@ body {
     font-size: var(--medium-font);
     padding: 12px 24px;
 }
+.timer {
+    position: fixed;
+    margin: 1rem;
+    right: 0px;
+    top: 0px;
+}
+.timer h5 {
+    color: var(--primary-color);
+    font-size: var(--medium-font);
+}
+.question {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 150px;
+    color: var(--primary-color);
+    width: auto;
+    font-size: 42px;
+}
