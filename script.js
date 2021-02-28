@@ -54,7 +54,7 @@ var questions = [
         correctAnswer: "c"
     }
 ]
-
+// test github on laptop
 var start = function() {
     splashEl.remove();
     startTimer();
