@@ -59,4 +59,23 @@ body {
     color: var(--primary-color);
     width: auto;
     font-size: 42px;
+    margin-bottom: 100px;
+}
+ul {
+    display: none;
+    text-decoration: none;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+ul li {
+    font-size: large;
+    padding: 30px;
+}
+.answer {
+    color: var(--background-color);
+    background-color: var(--primary-color);
+    font-size: 24px;
+    padding: 12px 28px;
 }
