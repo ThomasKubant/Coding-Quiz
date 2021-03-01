@@ -55,7 +55,7 @@ body {
     align-items: center;
     flex-direction: column;
     text-align: left;
-    margin-top: 150px;
+    margin-top: 100px;
     color: var(--primary-color);
     width: auto;
     font-size: 42px;
@@ -78,4 +78,13 @@ ul li {
     background-color: var(--primary-color);
     font-size: 24px;
     padding: 12px 28px;
+    border-radius: 8px;
+}
+.answer:hover {
+    background-color: var(--secondary-color);
+}
+.result {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
 }
